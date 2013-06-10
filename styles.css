@@ -1,0 +1,48 @@
+body {background: url('http://s2.postimg.org/sg1h171op/bg2.jpg') repeat-y #e7dbb9; background-attachment:fixed; margin:3em}
+#xchangerates{}
+#openfunds{}
+#queue, .datatable1 { width: 720px; height:200px; overflow:auto; }
+.dataview { width: 355px; height:200px; overflow:auto; display: inline-block; background: rgb(29, 29, 29); }
+.dataview  table { max-width: 355px;}
+.dataview td {padding:2px 2px;}
+.halfsize{ width: 355px; display: inline-block;margin-right: 5px; }
+.dataview .count {display:none;}
+.dataview td {line-height: 16px; font-size: 10pt;}
+.datatop { display: inline-block;white-space:nowrap;}
+.smallrate {font-family: 'Noto Sans', monospace; font-size:9pt; display: inline-block;white-space:nowrap;}
+ #queue { margin-bottom: 12px;}
+#wrapper { width: 720px; }
+table:not(.small) { width:100%;}
+table	{color: #fee; border-collapse: collapse; font-family: 'Noto Sans', monospace;}
+td {padding:4px 9px; background: #333}
+#alltransactions td, #queue td {white-space:nowrap;}
+tr {margin:0; border-bottom: 1px dashed rgb(255, 102, 0);}
+/*tr:nth-child(even) td {background: rgb(197, 197, 197);}*/
+li {border-radius: 10px;}
+tr:nth-child(even) td:not(.human):nth-child(even) {background: rgb(75, 67, 56);}
+tr:nth-child(even) td:not(.human):nth-child(odd) {background: rgb(88, 78, 68);}
+tr:nth-child(odd) td:not(.human):nth-child(even) {background: rgb(31, 27, 24);}
+tr:nth-child(odd) td:not(.human):nth-child(odd) {background: rgb(39, 36, 31);}
+.col1-hilight tr:nth-child(even) td:first-child:not(.human) {background: rgb(29, 29, 29);}
+.col1-hilight tr:nth-child(odd) td:first-child:not(.human) {background: rgb(13, 13, 13);}
+td.human {background-color: #eee; color:#000; font-family: 'Bad Script', cursive; , cursive;  font-size:13pt}
+
+.human .a1 { color: rgb(0, 63, 0); text-shadow: 0px 0px 1px rgb(0, 177, 0), 0px 0px 1px rgb(0, 255, 0);}
+.human .a2 { color: #d00; text-shadow: 0px 0px 1px #d00; }
+.human .b1 { color:rgb(255, 255, 160); font-family: 'Shadows Into Light Two', cursive; letter-spacing: 1px; font-weight: bold; text-shadow: -1px -1px 1px rgb(253, 75, 75), -1px 0px 1px rgb(179, 139, 11), 1px 1px 2px rgb(16, 51, 0), 1px 1px 2px #fff;}
+.human .b2 { color: rgb(238, 74, 133);text-shadow: -1px -1px 1px rgb(255, 194, 0), -1px 0px 1px rgb(255, 194, 0), -1px -1px 1px #fff, 1px 1px 2px #fff;	}
+.human .c { font-family: 'Aladin', cursive; color:#333 } 
+.human .d { font-family: 'Shadows Into Light Two', cursive; } 
+.human .e { font-family: 'Patrick Hand', cursive; } 
+
+.a1 { color: rgb(47, 151, 47);}
+.a2 { color: #d00; }
+.b1 { color:rgb(255, 255, 160);}
+.b2 { color: rgb(238, 74, 133);}
+
+.light {color: rgba(255, 255, 255, 0.3)}
+#alltransactions tr.sell td, #queue tr.sell td {background: rgb(255, 201, 184);}
+#alltransactions tr.buy td , #queue tr.buy td {background: rgb(183, 206, 163);}
+.count {margin: 4px 13px 2px 4px;}
+.date {float:right; line-height:12pt; font-size:11pt; color: rgb(22, 108, 156)}
+
