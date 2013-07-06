@@ -298,6 +298,7 @@ echo "<tr><td>".($estfunds2+$estfunds)." USD</td></tr>";
 echo "<tr><td>".(($estfunds2+$estfunds)/$coinrates['btc_usd'])." BTC</td></tr>";
 echo "</table>";
 
+/* this section is silly. in fact, i need to redo the whole pricing mechanism to utilize the active orderbook. that will be in the future. uncomment this section to see how the different currencies (eur, ltc, btc) can be inter-traded to no real profit. good teaching tool though.
 
 echo "<h2>Possible Deals to be Made</h2>";
 
@@ -322,7 +323,7 @@ echo "<tr><td>USD->LTC->BTC->USD</td><td>".$coinrates['btc_usd']*$fee_mult_btc."
 echo "</table>";
 
 
-
+*/
 
 
 
