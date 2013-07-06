@@ -113,7 +113,7 @@ foreach($transhistory["return"] as $transact){
 	
 	$pair = $transact['pair'];
 	$pair = explode("_",$transact['pair']);
-	$pair[2] = $pair[0]." / ".$pair[1];
+	$pair[2] = $pair[1]." / ".$pair[0];
 	$units[0] = $pair[0];
 	$units[1] = $pair[1];
 	if ($transact['type'] == "buy"){
@@ -206,7 +206,7 @@ foreach($result_queue["return"] as $transact)
 		{
 	$pair = $transact['pair'];
 	$pair = explode("_",$transact['pair']);
-	$pair[2] = $pair[0]." / ".$pair[1];
+	$pair[2] = $pair[1]." / ".$pair[0];
 	if ($transact['type'] == "buy"){
 			$net_coef = "1";
 			$units[0] = $pair[0];

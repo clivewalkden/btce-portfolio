@@ -219,7 +219,7 @@ function recenttrades( $exchange = "all", $transhistory = 0 )
 			
 			//prepare pair array
 				$pair = explode("_",$transact['pair']);
-				$pair[2] = $pair[0]."/".$pair[1];
+				$pair[2] = $pair[1]."/".$pair[0];
 				$units[0] = $pair[0];
 				$units[1] = $pair[1];
 			//end prepare pair array
@@ -228,14 +228,14 @@ function recenttrades( $exchange = "all", $transhistory = 0 )
 						echo '<tr class="buy">';
 						echo '<td class="a1">Bought </td><td class="b1">'.round($transact['amount'].$units[0], 3 ).'</td>';
 						echo '<td class="b1 b2">'.round($transact['amount']*$transact['rate'], 3 ).$units[1].'</td>';
-						echo '<td class="">@['.$transact['rate'].'<sub>'.$pair[2].'</sub>]</td>';
+						echo '<td class="">@'.$transact['rate'].' '.$pair[2].'</td>';
 					}
 					elseif($transact['type'] == 'sell')
 					{
 						echo '<tr class="sell">';
 						echo '<td class="a2">Sold </td> <td class="b1 b2">'.round($transact['amount'], 3 ).$units[0].'</td>';
 						echo '<td class="b1">'.round($transact['amount']*$transact['rate'], 3 ).$units[1].'</td>';
-						echo '<td class="">@['.$transact['rate'].'<sub>'.$pair[2].'</sub>]</td>';
+						echo '<td class="">@'.$transact['rate'].' '.$pair[2].'</td>';
 					}
 			echo "</td>";
 			echo "</tr>";
@@ -294,7 +294,7 @@ function recenttrades_old( $exchange = "all", $transhistory = 0 )
 						echo '<tr class="buy">';
 						echo '<td class="a1">Bought </td><td class="b1">'.round($transact['amount'].$units[0], 3 ).'</td>';
 						echo '<td class="b1 b2">'.round($transact['amount']*$transact['rate'], 3 ).$units[1].'</td>';
-						echo '<td class="">@['.$transact['rate'].'<sub>'.$pair[2].'</sub>]</td>';
+						echo '<td class="">@'.$transact['rate'].'<sub>'.$pair[2].'</sub></td>';
 						$coins[$units[1]] = $coinss[$units[1]] + $transact['amount']*$transact['rate'];
 						$pairs[$transact['pair']][$units[1]] += $transact['amount']*$transact['rate']; 
 						echo '<!--'.$pairs[$transact['pair']][$units[0]].'-->';
@@ -304,7 +304,7 @@ function recenttrades_old( $exchange = "all", $transhistory = 0 )
 						echo '<tr class="sell">';
 						echo '<td class="a2">Sold </td> <td class="b1 b2">'.round($transact['amount'], 3 ).$units[0].'</td>';
 						echo '<td class="b1">'.round($transact['amount']*$transact['rate'], 3 ).$units[1].'</td>';
-						echo '<td class="">@['.$transact['rate'].'<sub>'.$pair[2].'</sub>]</td>';
+						echo '<td class="">@'.$transact['rate'].'<sub>'.$pair[2].'</sub></td>';
 						$coins[$units[0]] = $coins[$units[0]] + $transact['amount'];
 						$pairs[$transact['pair']][$units[1]] += $transact['amount']; 
 						echo '<!--'.$pairs[$transact['pair']][$units[1]].'-->';
