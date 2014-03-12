@@ -1,5 +1,4 @@
 <?php
-
 include('functions.php');
 
 $coins = coins();
@@ -125,15 +124,22 @@ foreach($transhistory["return"] as $transact){
 	$pairs[$transact['pair']] = $coins[$transact['pair']] + $transact['amount']*$transact['rate'];
 	$coins[$units[0]] = $coins[$units[0]] + $net_coef*$transact['amount'];
 	$coins[$units[1]] = $coins[$units[1]] + (-1)*$net_coef*$transact['amount']*$transact['rate'];
-	if(!isset($pairs[$transact['pair']][$units[0]])){$pairs[$transact['pair']][$units[0]] = 0;}
-	if(!isset($pairs[$transact['pair']][$units[1]])){$pairs[$transact['pair']][$units[1]] = 0;}
+	if (!isset($pairs[$transact['pair']][$units[0]]))
+	{
+		@$pairs[$transact['pair']][$units[0]] = 0;
+	}
+	
+	if (!isset($pairs[$transact['pair']][$units[1]]))
+	{
+		@$pairs[$transact['pair']][$units[1]] = 0;
+	}
 	
 		if($transact['type'] == 'buy'){
 				echo '<tr class="buy"><td class="human"><span class="count">'.$count."</span>";
 				echo '<span class="a1">Bought </span> <span class="b1">'.$transact['amount'].' '.$units[0].'</span>';
 				echo ' for <span class="b1 b2">'.round($transact['amount']*$transact['rate'], 5 ).' '.$units[1].'</span>';
 				$coins[$units[1]] = $coinss[$units[1]] + $transact['amount']*$transact['rate'];
-				$pairs[$transact['pair']][$units[1]] += $transact['amount']*$transact['rate']; 
+				@$pairs[$transact['pair']][$units[1]] += $transact['amount']*$transact['rate']; 
 				echo '<!--'.$pairs[$transact['pair']][$units[0]].'-->';
 			}
 			elseif($transact['type'] == 'sell')
@@ -142,7 +148,7 @@ foreach($transhistory["return"] as $transact){
 				echo '<span class="a2">Sold </span> <span class="b1 b2">'.$transact['amount'].' '.$units[0].'</span>';
 				echo ' for <span class="b1">'.round($transact['amount']*$transact['rate'], 5 ).' '.$units[1].'</span>';
 				$coins[$units[0]] = $coins[$units[0]] + $transact['amount'];
-				$pairs[$transact['pair']][$units[1]] += $transact['amount']; 
+				@$pairs[$transact['pair']][$units[1]] += $transact['amount']; 
 				echo '<!--'.$pairs[$transact['pair']][$units[1]].'-->';
 			}
 	echo ' at a rate of <span class="c">'.$transact['rate'].' '.$pair[2].'</span>';
@@ -299,7 +305,7 @@ echo "<tr><td>".(($estfunds2+$estfunds)/$coinrates['btc_usd'])." BTC</td></tr>";
 echo "</table>";
 
 /* this section is silly. in fact, i need to redo the whole pricing mechanism to utilize the active orderbook. that will be in the future. uncomment this section to see how the different currencies (eur, ltc, btc) can be inter-traded to no real profit. good teaching tool though.
-
+*/
 echo "<h2>Possible Deals to be Made</h2>";
 
 echo "Current fee: ".$fee_btc;
@@ -322,7 +328,7 @@ echo "<tr><td>USD->LTC->BTC->USD</td><td>".$coinrates['btc_usd']*$fee_mult_btc."
 
 echo "</table>";
 
-
+/*
 */
 
 

@@ -1,0 +1,623 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"val",
+				"validate"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"SOZO_BASE",
+				"SOZO_BASEDIR"
+			],
+			[
+				"SOZO",
+				"SOZO_DOMAIN"
+			],
+			[
+				"SOZO_BAS",
+				"SOZO_BASEURI"
+			],
+			[
+				"Red",
+				"Redirect	Laravel: Redirect::to()"
+			],
+			[
+				"to",
+				"to_route"
+			],
+			[
+				"vali",
+				"validation_errors"
+			],
+			[
+				"Input",
+				"Input	Laravel: Input::get()"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ht",
+				"htmlentities"
+			],
+			[
+				"new",
+				"new_snippet"
+			],
+			[
+				"photo",
+				"photo-wrapper"
+			],
+			[
+				"html",
+				"htmlEncode"
+			],
+			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"p",
+				"photos"
+			],
+			[
+				"P",
+				"PhotosView"
+			],
+			[
+				"Photo",
+				"PhotoView"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"Pho",
+				"Photo"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 10796,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 12822,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Snippet: r",
+				"Snippet: Route-Restful"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: IN",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Clive/git/btce-portfolio/apikey.php",
+		"/Users/Clive/git/laravel4/testproject/app/config/app.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/team/config.inc.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/team/form.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/team/index.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/imagelibrary/config.inc.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/index.php",
+		"/Users/Clive/git/mosaic-search/includes/yourdatabasename.sql",
+		"/Users/Clive/git/mosaic-search/includes/mosaic_cms_backup_2013-05-30_05_23_55.sql",
+		"/Users/Clive/git/mosaic-search/includes/classes/sozocms.class.php",
+		"/Users/Clive/git/mosaic-search/includes/config.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/preferences/index.php",
+		"/Users/Clive/git/mosaic-search/public_html/SOZOcms/imagelibrary/index.php",
+		"/Users/Clive/git/mosaic-search/includes/classes/phpmailer.class.php",
+		"/Users/Clive/git/mosaic-search/logs/email_log.txt",
+		"/Users/Clive/git/relike/includes/db.php",
+		"/Users/Clive/git/relike/includes/config.php",
+		"/Users/Clive/git/relike/includes/classes/utils.class.php",
+		"/Users/Clive/git/relike/public_html/account/index.php",
+		"/Users/Clive/git/relike/public_html/includes/top.php",
+		"/Users/Clive/git/relike/public_html/account/login.php",
+		"/Users/Clive/git/relike/includes/classes/security.class.php",
+		"/Users/Clive/git/relike/public_html/.htaccess",
+		"/Users/Clive/git/relike/public_html/index.php",
+		"/Users/Clive/git/relike/public_html/test_email.php",
+		"/Users/Clive/git/relike/includes/classes/session.class.php",
+		"/Users/Clive/git/relike/public_html/SOZOcms/vouchers/config.inc.php",
+		"/Users/Clive/git/relike/public_html/includes/bottom.php",
+		"/Users/Clive/git/relike/includes/db_open.php",
+		"/Users/Clive/git/snippets/application/routes.php",
+		"/Users/Clive/git/snippets/application/controllers/snippets.php",
+		"/Users/Clive/git/snippets/application/views/snippet/new.blade.php",
+		"/Users/Clive/git/snippets/application/views/master.blade.php",
+		"/Users/Clive/git/snippets/application/views/snippet/show.blade.php",
+		"/Users/Clive/git/snippets/application/models/snippet.php",
+		"/Users/Clive/git/snippets/application/migrations/2013_05_24_234742_create_snippets_table.php",
+		"/Users/Clive/git/snippets/Boxfile",
+		"/Users/Clive/git/snippets/application/config/production/application.php",
+		"/Users/Clive/git/snippets/application/config/production/database.php",
+		"/Users/Clive/git/snippets/public/css/main.css",
+		"/Users/Clive/Downloads/bootstrap (1)/css/bootstrap.css",
+		"/Users/Clive/git/snippets/public/code-prettify/src/prettify.css",
+		"/Users/Clive/git/snippets/public/js/vendor/tabby.js",
+		"/Users/Clive/git/snippets/application/migrations/2013_05_25_002057_update_snippets_to_snippet_on_snippets_table.php",
+		"/Users/Clive/git/snippets/application/config/application.php",
+		"/Users/Clive/git/snippets/application/config/database.php",
+		"/Users/Clive/git/snippets/application/tasks/generate.php",
+		"/Users/Clive/git/instabone/js/app.js",
+		"/Users/Clive/git/instabone/Classes/data.php",
+		"/Users/Clive/git/instabone/js/application.js",
+		"/Users/Clive/git/instabone/index.html",
+		"/Users/Clive/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Clive/git/cw_artwork/application/views/template/account/partials/footer.blade.php",
+		"/Users/Clive/git/cw_artwork/application/controllers/base.php",
+		"/Users/Clive/git/cw_artwork/application/views/account/index.blade.php",
+		"/Users/Clive/git/cw_artwork/application/models/artwork.php",
+		"/Users/Clive/git/cw_artwork/application/models/country.php",
+		"/Users/Clive/git/cw_artwork/application/models/artists.php",
+		"/Users/Clive/git/cw_artwork/application/models/users.php",
+		"/Users/Clive/git/cw_artwork/application/models/medium.php",
+		"/Users/Clive/git/cw_artwork/application/controllers/home.php",
+		"/Users/Clive/git/cw_artwork/application/routes.php",
+		"/Users/Clive/git/cw_artwork/application/views/account/artists.blade.php",
+		"/Users/Clive/git/cw_artwork/application/views/account/artwork.blade.php",
+		"/Users/Clive/git/cw_artwork/application/views/template/partials/header.blade.php",
+		"/Users/Clive/git/cw_artwork/application/views/template/partials/nav.blade.php",
+		"/Users/Clive/git/cw_artwork/public_html/css/vendor/bootstrap/bootstrap.min.css",
+		"/Users/Clive/git/cw_artwork/public_html/css/vendor/bootstrap/bootstrap.css",
+		"/Users/Clive/git/cw_artwork/application/views/template/account/partials/header.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"echo",
+			"glyphicon",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 10796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 12822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7289,
+								7289
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"app/start",
+				"app/start/global.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true
+}
